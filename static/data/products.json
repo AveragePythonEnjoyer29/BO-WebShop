@@ -1,0 +1,37 @@
+[
+    {
+        "name": "ASUS X415KA-EK103W - 14 inch",
+        "price": 389,
+        "img": "https://media.s-bol.com/gV2E3mDKoZ26/wBPyM8/550x368.jpg",
+        "description": "Deze ASUS X415KA-EK103W laptop is geschikt voor dagelijks gebruik zoals internetten, e-mailen en het typen van verslagen. Dankzij het anti-glare scherm werk je ook in lichte omgevingen comfortabel. Dankzij het IPS scherm heb je een bredere kijkhoek en een realistische kleurweergave.",
+        "is_ad": false,
+        "in_stock": true
+    },
+
+    {
+        "name": "ASUS TUF F15 FX506HC-HN111W - 15.6 inch",
+        "price": 759,
+        "img": "https://media.s-bol.com/Rnj0kJAPZGNq/KDZ4zM/550x411.jpg",
+        "description": "Deze ASUS TUF F15 FX506HC-HN111W gaming laptop is perfect voor de instap gamer. Je speelt zo nu en dan wel eens Minecraft of FIFA 2021, maar alles op de allerhoogste grafische instellingen spelen, vind je niet zo belangrijk. Dankzij het IPS scherm heb je een brede kijkhoek en een realistische kleurweergave. Dankzij het verlichte toetsenbord is gamen in donkere ruimtes geen enkel probleem. Verder is het werkgeheugen van deze laptop uitbreidbaar. Hiermee kan je in de toekomst besluiten om je werkgeheugen te vergroten zodat je laptop nog meer taken tegelijkertijd aan kan.",
+        "is_ad": false,
+        "in_stock": false
+    },
+
+    {
+        "name": "HP 15s-fq5750nd - 15.6 inch",
+        "price": 449,
+        "img": "https://media.s-bol.com/po2y1Y31v72V/vm4yRL/1200x971.jpg",
+        "description": "Deze HP 15s-fq5750nd laptop is geschikt voor het typen van verslagen en het maken van presentaties. Door de snelle processor en de Iris Xe onboard videokaart is deze laptop geschikt voor lichte grafische toepassingen, zoals Photoshop. Dankzij het grote scherm heb je veel ruimte op je bureaublad.",
+        "is_ad": true,
+        "in_stock": false
+    },
+
+    {
+        "name": "ASUS TUF Gaming VG32AQA1A - QHD Gaming Monitor",
+        "price": 362,
+        "img": "https://media.s-bol.com/PK08q266VX0y/omPrrX/1200x847.jpg",
+        "description": "De 31.5” TUF Gaming VG32AQL1A WQHD gaming-monitor is uitgerust met een Fast IPS-paneel en is NVIDIA® G-SYNC®-compatibiliteit, voor razendsnelle 170Hz gaming. ASUS Extreme Low Motion Blur Sync (ELMB Sync) en AMD FreeSync™ Premium technologieën maken uiterst vloeiende gaming mogelijk. Bovendien voldoet hij aan de DisplayHDR™ 400-compliancenormen en heeft hij een DCI-P3-bereik van 99% om uitzonderlijke kleuren en contrast te bieden.",
+        "is_ad": false,
+        "in_stock": true
+    }
+]

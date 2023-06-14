@@ -17,10 +17,12 @@
 </head>
 <body>
     <noscript>
-        <h1 id="noscript">This page needs Javascript to work, sorry Tor bros</h1>
+        <div class="noscript">
+            <h1>This page needs Javascript to work.</h1>
+        </div>
     </noscript>
 
-    <header class="fixed">
+    <header>
         <div class="full-row display-flex">
             <div class="logo">
                 <a href="/" class="href--nostyle">
@@ -28,15 +30,15 @@
                 </a>
             </div>
             <div class="pages">
-                <a href="/" class="href--nostyle">
+                <a href="/desktops.html" class="href--nostyle">
                     <h3>Desktops</h2>
                 </a>
 
-                <a href="/" class="href--nostyle">
+                <a href="/laptops.html" class="href--nostyle">
                     <h3 class="pages--second">Laptops</h2>
                 </a>
 
-                <a href="/" class="href--nostyle">
+                <a href="/accessoires.html" class="href--nostyle">
                     <h3>Accessoires</h2>
                 </a>
             </div>
@@ -44,22 +46,104 @@
     </header>
 
     <div class="slogan">
-        <div class="slogan--text">
-            <h1 class="slogan--title">Based.ez</h1>
-            <h2 class="slogan--subtitle">All your money are belong to us</h2>
-        </div>
+        <div class="slogan--box">
+            <div class="slogan--text">
+                <h1 class="slogan--title">Based.ez</h1>
+                <h2 class="slogan--subtitle">Your go-to for new, cheap, powerful laptops and desktops</h2>
+            </div>
 
-        <div class="slogan--cta">
-            <button>
-                Test
-            </button>
+            <!-- "call to action" -->
+            <div class="slogan--cta">
+                <button class="cta--button">
+                    Start shopping
+                </button>
+            </div>
         </div>
     </div>
 
     <main>
-        <div class="products">
-            
-        </div>
+        <ul class="card--about">
+            <li class="card card--img">
+                <img class="about--img" src="/static/media/wp6024797-devices-wallpapers.webp" alt="">
+            </li>
+            <li class="card card--text">
+                <h2>Based.ez, your go-to for laptop, desktop and accesoires</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vehicula nisi ac dictum auctor. Integer sollicitudin, sapien ut laoreet aliquam, metus ante dictum ipsum, nec tristique sem justo vel neque. Donec vel consequat nibh. Etiam commodo odio a dui pellentesque, in lobortis metus ultrices. Praesent mollis, tortor quis tristique auctor, tellus massa ullamcorper ipsum, ut facilisis erat ligula et ligula. Fusce dui lorem, hendrerit id euismod eu, lobortis quis mi. Etiam fermentum, neque at tempus egestas, tellus risus viverra lorem, a euismod nibh orci non ipsum. Integer ornare lectus nec sapien consequat, a vestibulum mi porta.
+
+                    Suspendisse potenti. Proin vel aliquet turpis. Donec ut nulla libero. In pulvinar metus eu dui tempus ornare. Mauris ullamcorper nulla vitae magna pretium, sed bibendum magna gravida. Aliquam erat volutpat. Nunc ut ligula consequat, posuere libero non, placerat massa. Sed interdum elit nibh, ac tincidunt eros dapibus at. Morbi ornare auctor velit id commodo. Phasellus ultrices tellus eu eros gravida, nec mattis massa malesuada. Maecenas erat lorem, tempor aliquam felis sit amet, fringilla accumsan mi. 
+                </p>
+            </li>
+        </ul>
+
+        <ul class="card--mid-page">
+            <li class="card card3" id="card1">
+            </li>
+
+            <li class="card card4" id="card2">
+            </li>
+
+            <li class="card card5" id="card3">
+            </li>
+
+            <li class="card card6" id="card4">
+            </li>
+        </ul>
+
+        <ul class="card--features">
+            <li class="card--feature card--feature-one">
+                <img src="/static/media/globe.webp" alt="" class="feature--img">
+                <h2>Global delivery</h2>
+                <p>
+                    We deliver everywhere, even the Nort Sentinal Island!
+                </p>
+            </li>
+
+            <li class="card--feature card--feature-two">
+                <img src="/static/media/help-circle.webp" alt="" class="feature--img">
+                <h2>Customer Support</h2>
+                <p>
+                    Always ready to help you, even at the latest hours!
+                </p>
+            </li>
+
+            <li class="card--feature card--feature-three">
+                <img src="/static/media/clock.svg" alt="" class="feature--img">
+                <h2>Fast delivery</h2>
+                <p>
+                    Products delivered in 3μs!
+                </p>
+            </li>
+
+            <li class="card--feature card--feature-four">
+                <img src="/static/media/dollar-sign.svg" alt="" class="feature--img">
+                <h2>Cheap and powerful products</h2>
+                <p>
+                    Cheap, new and powerful laptops, desktops and accesoires!
+                </p>
+            </li>
+        </ul>
+
+        <ul class="card--reviews">
+            <li class="card--review card--review-one" id="review1">
+                <img class="review--user-icon" id="review--user-icon" src="/static/media/user.webp" alt="user icon">
+                <h2 id="review--text">Mijn billen kriebelen</h2>
+                <p id="review--stars">4</p>
+                <p id="review--name">Daniel Vermeulen</p>
+            </li>
+            <li class="card--review card--review-two" id="review2">
+                <img class="review--user-icon" id="review--user-icon" src="/static/media/user.webp" alt="user icon">
+                <h2 id="review--text">Hele goeie website!</h2>
+                <p id="review--stars">5</p>
+                <p id="review--name">Oscar Slot</p>
+            </li>
+            <li class="card--review card--review-three" id="review3">
+                <img class="review--user-icon" id="review--user-icon" src="/static/media/user.webp" alt="user icon">
+                <h2 id="review--text">Make america great again!</h2>
+                <p id="review--stars">5</p>
+                <p id="review--name">Trump</p>
+            </li>
+        </ul>
     </main>
 </body>
 </html>

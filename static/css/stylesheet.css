@@ -11,7 +11,6 @@
     --gradient-light: linear-gradient(to right, #abbaab, #ffffff);
     --font-color-light: white;
     --font-color-dark: black;
-    --grid-size: 13;
 }
 
 html {
@@ -21,15 +20,29 @@ html {
 body {
     font-size: 1.6rem;
     font-family: sans-serif;
+    scroll-behavior: smooth;
 }
 
 header {
+    width: 100%;
     background: var(--gradient-dark);
     color: var(--font-color-light);
 }
 
+.noscript {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--font-color-dark);
+    background: var(--gradient-light);
+}
+
 .full-row {
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
 .logo {
@@ -46,11 +59,12 @@ header {
     text-decoration: none;
 }
 
-.display-flex {
+.center {
+    justify-content: center;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 2rem;
 }
 
 .pages {
@@ -58,23 +72,35 @@ header {
     align-items: center;
     justify-content: space-evenly;
     flex-direction: row;
-
     margin-right: 2rem;
-}
-
-.pages--second {
-    margin-left: 5rem;
-    margin-right: 5rem;
+    width: 45rem;
 }
 
 .slogan {
-    background: #FFFFFF;
+    background-image: url("/static/media/wp6024780-devices-wallpapers.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: white;
+
     width: 100%;
     height: 90vh;    
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.slogan--box {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:rgba(111, 111, 111, 0.98);
+    border-radius: 3.5rem;
+    padding: 5rem;
+    gap: 2rem;
 }
 
 .slogan--text {
@@ -84,6 +110,268 @@ header {
     flex-direction: column;
 }
 
-.products {
+.slogan--subtitle {
+    font-size: 2rem;
+}
+
+.cta--button {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2rem;
+    text-transform: uppercase;
+    background: #ffdf4f;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.cta--button:hover {
+    background: #d6be45;
+}
+
+.about--box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about--img {
+    transition: 0.8s transform;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.about--img:hover {
+    transform: scale(1.040);
+}
+
+.card--img {
+    grid-row: 2/16;
+    grid-column: 2/10;
+}
+
+.card--text {
+    grid-row: 2/16;
+    grid-column: 10/16;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card--about {
     display: grid;
+    width: 100%;
+    gap: 2rem;
+    grid-template-columns: repeat(16, 2fr);
+    grid-template-rows: repeat(16, 2fr);
+}
+
+.card--mid-page {
+    height: 89vh;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(17, 2fr);
+    grid-template-rows: repeat(15, 2fr);
+    gap: 2rem;
+}
+
+.card--features {
+    height: 89vh;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(18, 2fr);
+    grid-template-rows: repeat(14, 2fr);
+}
+
+.card {
+    list-style: none;
+    background: white;
+    border-radius: 1rem;
+    border: 2px solid #f0f0f0;
+    position: relative;
+}
+
+.card3 {
+    grid-row: 1/12;
+    grid-column: 2/5;
+    transition: 0.5s transform;
+}
+
+.card4 {
+    grid-row: 1/12;
+    grid-column: 6/9;
+    transition: 0.5s transform;
+}
+
+.card5 {
+    grid-row: 1/12;
+    grid-column: 10/13;
+    transition: 0.5s transform;
+}
+
+
+.card6 {
+    grid-row: 1/12;
+    grid-column: 14/17;
+    transition: 0.5s transform;
+}
+
+.card3:hover, .card4:hover, .card5:hover, .card6:hover {
+    transform: scale(1.1);
+}
+
+.product--add2cart {
+    position: absolute;
+    width: 8rem;
+    height: 8rem;
+}
+
+.product--info {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 1rem;
+}
+
+.product--img {
+    object-fit: contain;
+    width: 100%;
+}
+
+.product--name {
+    color: #555;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.product--price {
+    font-weight: 700;
+}
+
+.product--no-stock {
+    color: red;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.card--feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    list-style: none;
+    border-radius: 1rem;
+    position: relative;
+}
+
+.card--feature-one {
+    grid-column: 1/9;
+    grid-row: 1/7;
+}
+
+.card--feature-two {
+    grid-column: 10/19;
+    grid-row: 1/7;
+}
+
+.card--feature-three {
+    grid-column: 1/9;
+    grid-row: 8/14;
+}
+
+.card--feature-four {
+    grid-column: 10/19;
+    grid-row: 8/14;
+}
+
+.feature--img {
+    height: 25%;
+}
+
+.card--reviews {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(13, 1fr);
+}
+
+.card--review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    list-style: none;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 0.5rem 0 rgb(69, 69, 69);
+    position: relative;
+}
+
+.card--review-one {
+    grid-column: 2/6;
+}
+
+.card--review-two {
+    grid-column: 8/12;
+}
+
+.card--review-three {
+    grid-column: 14/18;
+}
+
+.review--user-icon {
+    height: 50%;
+}
+
+@media screen and (max-width: 45rem) {
+
+    .feature--img {
+        height: 100%;
+    }
+
+    .card--features {
+        height: 89vh;
+        grid-template-columns: repeat(18, 2fr);
+        grid-template-rows: repeat(16, 2fr);
+    }
+
+    .card--feature-one {
+        grid-column: 1/19;
+        grid-row: 1/4;
+    }
+
+    .card--feature-two {
+        grid-column: 1/19;
+        grid-row: 4/8;
+    }
+
+    .card--feature-three {
+        grid-column: 1/19;
+        grid-row: 8/12;
+    }
+
+    .card--feature-four {
+        grid-column: 1/19;
+        grid-row: 12/16;
+    }
+
+    .about--box {
+        flex-wrap: wrap;
+    }
+
+    .about--img {
+        max-width: 100%;
+    }
+    
+    .href--nostyle {
+        font-size: 1rem;
+    }
+
+    .slogan--box {
+        background: rgba(111, 111, 111, 0.67);
+    }
 }
