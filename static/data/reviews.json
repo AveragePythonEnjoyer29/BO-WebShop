@@ -1,7 +1,7 @@
 [
     {
         "name": "Daniel Vermeulen",
-        "stars": 0,
+        "stars": 3,
         "text": "Mijn billen kriebelen."
     },
 
@@ -9,24 +9,6 @@
         "name": "Leon",
         "stars": 4,
         "text": "Hoi, ik ben Leon!"
-    },
-
-    {
-        "name": "Silvan Herrema",
-        "stars": 5,
-        "text": "Ik ben Silvan"
-    },
-
-    {
-        "name": "John Doe",
-        "stars": 5,
-        "text": "Goeie website! Heb veel goedkope laptops kunnen halen voor het minen van Monero"
-    },
-
-    {
-        "name": "le skid 1337",
-        "stars": 0,
-        "text": "<script>alert('youre been hacked!')</script>"
     },
 
     {

@@ -1,0 +1,49 @@
+.product--grid {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(14, 1fr);
+    list-style-type: none;
+}
+
+.product--backbutton {
+    grid-column: 1/2;
+    grid-row: 1/1;
+}
+
+.product--img-box {
+    grid-column: 2/10;
+    grid-row: 2/10;
+}
+
+.product--text-box {
+    display: flex;
+    gap: 4rem;
+    flex-direction: column;
+    grid-column: 11/20;
+    grid-row: 2/5;
+}
+
+.product--buttons {
+    grid-row: 10/11;
+    grid-column: 2/10;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.product--img-full {
+    width: 100%;
+    object-fit: contain;
+}
+
+.product--goback {
+    width: 100%;
+    color: #39b54a;
+    border-radius: 1.2rem;
+    border: none;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.button {
+    width: 100%
+}

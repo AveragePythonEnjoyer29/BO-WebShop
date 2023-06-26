@@ -1,37 +1,99 @@
 [
     {
-        "name": "ASUS X415KA-EK103W - 14 inch",
-        "price": 389,
-        "img": "https://media.s-bol.com/gV2E3mDKoZ26/wBPyM8/550x368.jpg",
-        "description": "Deze ASUS X415KA-EK103W laptop is geschikt voor dagelijks gebruik zoals internetten, e-mailen en het typen van verslagen. Dankzij het anti-glare scherm werk je ook in lichte omgevingen comfortabel. Dankzij het IPS scherm heb je een bredere kijkhoek en een realistische kleurweergave.",
+        "name": "ASUS TUF F15 FX506HC-HN111W - Gaming Laptop - 15.6 inch - 144Hz",
+        "type": "laptop",
+        "price": 649,
+        "img": [
+            "https://media.s-bol.com/Rnj0kJAPZGNq/KDZ4zM/1200x897.jpg",
+            "https://media.s-bol.com/q5Lr6wl7mQv7/KDZ4zM/1161x1200.jpg",
+            "https://media.s-bol.com/7zVwJ335VA0O/KDZ4zM/1200x713.jpg"
+        ],
+        "description": " Deze ASUS TUF F15 FX506HC-HN111W gaming laptop is perfect voor de instap gamer. Je speelt zo nu en dan wel eens Minecraft of FIFA 2021, maar alles op de allerhoogste grafische instellingen spelen, vind je niet zo belangrijk. Dankzij het IPS scherm heb je een brede kijkhoek en een realistische kleurweergave. Dankzij het verlichte toetsenbord is gamen in donkere ruimtes geen enkel probleem. Verder is het werkgeheugen van deze laptop uitbreidbaar. Hiermee kan je in de toekomst besluiten om je werkgeheugen te vergroten zodat je laptop nog meer taken tegelijkertijd aan kan.",
         "is_ad": false,
         "in_stock": true
     },
 
     {
-        "name": "ASUS TUF F15 FX506HC-HN111W - 15.6 inch",
-        "price": 759,
-        "img": "https://media.s-bol.com/Rnj0kJAPZGNq/KDZ4zM/550x411.jpg",
-        "description": "Deze ASUS TUF F15 FX506HC-HN111W gaming laptop is perfect voor de instap gamer. Je speelt zo nu en dan wel eens Minecraft of FIFA 2021, maar alles op de allerhoogste grafische instellingen spelen, vind je niet zo belangrijk. Dankzij het IPS scherm heb je een brede kijkhoek en een realistische kleurweergave. Dankzij het verlichte toetsenbord is gamen in donkere ruimtes geen enkel probleem. Verder is het werkgeheugen van deze laptop uitbreidbaar. Hiermee kan je in de toekomst besluiten om je werkgeheugen te vergroten zodat je laptop nog meer taken tegelijkertijd aan kan.",
-        "is_ad": false,
-        "in_stock": false
-    },
-
-    {
         "name": "HP 15s-fq5750nd - 15.6 inch",
+        "type": "laptop",
         "price": 449,
-        "img": "https://media.s-bol.com/po2y1Y31v72V/vm4yRL/1200x971.jpg",
+        "img": [
+            "https://media.s-bol.com/po2y1Y31v72V/vm4yRL/1200x971.jpg",
+            "https://media.s-bol.com/7zA3o169qpj8/611AzO/550x327.jpg",
+            "https://media.s-bol.com/XXQED856Pyko/OJq5qr/1200x129.jpg"
+        ],
         "description": "Deze HP 15s-fq5750nd laptop is geschikt voor het typen van verslagen en het maken van presentaties. Door de snelle processor en de Iris Xe onboard videokaart is deze laptop geschikt voor lichte grafische toepassingen, zoals Photoshop. Dankzij het grote scherm heb je veel ruimte op je bureaublad.",
         "is_ad": true,
+        "in_stock": true
+    },
+
+    {
+        "name": "ASUS X515EA-EJ4003W - Laptop - 15.6 inch",
+        "type": "laptop",
+        "price": 599,
+        "img": [
+            "https://media.s-bol.com/gVJY2kP9wWvl/MpxB3P/1200x793.jpg",
+            "https://media.s-bol.com/Rr6Y1yk2AKLz/MpxB3P/1200x775.jpg",
+            "https://media.s-bol.com/xNkqljvEORwP/MpxB3P/1200x713.jpg"
+        ],
+        "description": "Deze ASUS X515EA-EJ4003W laptop is geschikt voor het bekijken van je favoriete films en series. Deze laptop is razendsnel dankzij de snelle processor en SSD. Dankzij het IPS scherm heb je een bredere kijkhoek en een realistische kleurweergave.",
+        "is_ad": false,
         "in_stock": false
     },
 
     {
-        "name": "ASUS TUF Gaming VG32AQA1A - QHD Gaming Monitor",
-        "price": 362,
-        "img": "https://media.s-bol.com/PK08q266VX0y/omPrrX/1200x847.jpg",
-        "description": "De 31.5” TUF Gaming VG32AQL1A WQHD gaming-monitor is uitgerust met een Fast IPS-paneel en is NVIDIA® G-SYNC®-compatibiliteit, voor razendsnelle 170Hz gaming. ASUS Extreme Low Motion Blur Sync (ELMB Sync) en AMD FreeSync™ Premium technologieën maken uiterst vloeiende gaming mogelijk. Bovendien voldoet hij aan de DisplayHDR™ 400-compliancenormen en heeft hij een DCI-P3-bereik van 99% om uitzonderlijke kleuren en contrast te bieden.",
+        "name": "Medion Multimedia Laptop Akoya S17405 - Intel Core i5-1135G7 - 512 GB SSD - 16 GB RAM",
+        "type": "laptop",
+        "price": 799,
+        "img": [
+            "https://media.s-bol.com/NKRZ6QR1V1X2/gMko5Z/1200x818.jpg",
+            "https://media.s-bol.com/PK82VX8J0JgA/RjLGLK/1200x669.jpg",
+            "https://media.s-bol.com/RK74V27BZkLK/kXo47E/1200x823.jpg"
+        ],
+        "description": "Voorzien van de nieuwste Intel® Celeron® N4500 processor en 128 GB aan flashgeheugen, houd je met deze in Electric Blue uitgevoerde Aspire 1 (A114-33-C0J7) gemakkelijk het overzicht en kun je je apps probleemloos blijven gebruiken, of je nu thuis, op school of op het werk bent.",
         "is_ad": false,
+        "in_stock": true
+    },
+
+    {
+        "name": "Microsoft Surface Laptop 5 - Touchscreen - i7/8GB/256GB Platinum - 15 inch",
+        "type": "laptop",
+        "price": 1299,
+        "img": [
+            "https://media.s-bol.com/33V2OX2p5M3p/vkjY9g/550x354.jpg",
+            "https://media.s-bol.com/gyMLGmLJZ9M9/Byn8mk/1200x783.jpg",
+            "https://media.s-bol.com/BXQxrN3OpRkW/P5vg44/1200x1200.jpg"
+        ],
+        "description": "Deze Surface Laptop 5 laptop is geschikt voor het bewerken van foto\\'s in bijvoorbeeld Adobe Photoshop. Deze laptop is razendsnel dankzij de snelle processor en SSD. Bedien je laptop snel en gemakkelijk door middel van het touchscreen. ",
+        "is_ad": false,
+        "in_stock": true
+    },
+
+    {
+        "name": "Intel 8-Core i7 10700 Game PC - RTX 3060 8GB - 32GB RAM - 1TB M2.0 SSD",
+        "type": "desktop",
+        "price": 999,
+        "img": [
+            "https://media.s-bol.com/RXNwRwDXOX0Y/80yR7W/987x1200.jpg",
+            "https://media.s-bol.com/OGKqOqz9VP1Q/80yR7W/899x1200.jpg",
+            "https://media.s-bol.com/YZ8020NxQw4W/80yR7W/1008x1200.jpg"
+        ],
+        "description": "Deze Intel i7 Game PC is uitgerust met de RTX 3060 en de 8-core i7 10700 processor. Met de GeForce RTX 3060 8GB kun jij de komende jaren alle games op 1080p hoge settings vlekkeloos draaien! Deze PC is tevens zeer geschikt voor zware multitasking, videobewerking & livestreaming door de snelle 8-core processor.",
+        "is_ad": false,
+        "in_stock": true
+    },
+
+    {
+        "name": "Intel Desktop PC met Core i7 - 32GB RAM - 1000GB NVMe M.2 SSD",
+        "type": "desktop",
+        "price": 589,
+        "img": [
+            "https://media.s-bol.com/qoRj8p8VGEj2/5xr8MA/550x663.jpg",
+            "https://media.s-bol.com/OGl7DkZPjAZN/oK0YPY/1200x1161.jpg",
+            "https://media.s-bol.com/33w2BJJNgRgn/gGXnOD/1200x1175.jpg"
+        ],
+        "description": "Het betreft een nieuwe computer welke zorgvuldig is geassembleerd. De computer is tevens getest op een goede werking en wordt startklaar geleverd. Windows is reeds geïnstalleerd en geactiveerd met een digitale licentie. Na de eerste opstart zal Windows zich updaten naar de meest recente versie. ",
+        "is_ad": true,
         "in_stock": true
     }
 ]

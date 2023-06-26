@@ -1,0 +1,45 @@
+.product--grid {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    list-style-type: none;
+}
+
+.product--flex {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.product--img {
+    height: 50%;
+}
+
+.product--item {
+    width: 25%;
+    list-style: none;
+    background: white;
+    border-radius: 1rem;
+    border: 2px solid #f0f0f0;
+}
+
+.product--full {
+    display: none;
+}
+
+@media screen and (max-width: 85rem) {
+    .product--name {
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width: 45rem) {
+
+    .product--item {
+        width: 100%;
+    }
+
+    .product--flex {
+        flex-direction: column;
+    }
+}
