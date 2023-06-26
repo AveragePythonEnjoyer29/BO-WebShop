@@ -330,7 +330,7 @@ header {
 }
 
 .footer {
-    margin-top: 3rem;
+    margin-top: auto;
     display: flex;
     align-items: center;
     justify-content: center;

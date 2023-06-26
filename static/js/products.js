@@ -1,8 +1,15 @@
 /* ik haat javascript met heel mn hart */
 
 const products = document.getElementById("products");
-const button = document.getElementById("button--filter");
+const filters = document.getElementById("checkboxes");
 const main = document.querySelector("main");
+const toggle_desktops = document.getElementById("checkbox--desktops");
+const toggle_laptops = document.getElementById("checkbox--laptops");
+const toggle_accesoires = document.getElementById("checkbox--accesoires");
+
+toggle_desktops.checked = true;
+toggle_laptops.checked = true;
+toggle_accesoires.checked = true;
 
 let toggle_full = false;
 
@@ -16,7 +23,12 @@ function display(num) {
         products_full[i].style.display = display_mode;
     }
 
-    button.style.display = display_mode;
+    checkboxes.style.display = display_mode;
+
+    // reset everything incase
+    toggle_desktops.checked = true;
+    toggle_laptops.checked = true;
+    toggle_accesoires.checked = true;
 
     toggle_full = !toggle_full;
 }
@@ -61,7 +73,13 @@ fetch("/static/data/products.json")
                 <p>${data.description}</p>
             </li>
 
-            <li class="product--buttons">
+            <li class="product--buttons-cart">
+                <button class="button--add2cart">
+                    Add to cart
+                </button>
+            </li>
+
+            <li class="product--buttons-gallery">
                 <button class="button" id="gallery${i}">1</button>
                 <button class="button" id="gallery${i}">2</button>
                 <button class="button" id="gallery${i}">3</button>
@@ -83,15 +101,32 @@ fetch("/static/data/products.json")
     }
 });
 
-let toggle = true;
-button.onclick = function() {
-    let all = document.getElementsByClassName("product--item");
-    for (let i = 0; i < all.length; i++) {
+toggle_desktops.onchange = function(){
 
-        if (all[i].getAttribute("product") != "laptop") {
-            all[i].style.display = toggle ? "none" : "block";
+    const all = document.getElementsByClassName("product--item");
+    for(let i = 0; i < all.length; i++){
+        if(all[i].getAttribute("product") == "desktop"){    
+            all[i].style.display = toggle_desktops.checked ? "block" : "none";
         }
     }
+}
 
-    toggle = !toggle;
+toggle_laptops.onchange = function(){
+
+    const all = document.getElementsByClassName("product--item");
+    for(let i = 0; i < all.length; i++){
+        if(all[i].getAttribute("product") == "laptop"){    
+            all[i].style.display = toggle_laptops.checked ? "block" : "none";
+        }
+    }
+}
+
+toggle_accesoires.onchange = function(){
+
+    const all = document.getElementsByClassName("product--item");
+    for(let i = 0; i < all.length; i++){
+        if(all[i].getAttribute("product") == "accesoires"){    
+            all[i].style.display = toggle_accesoires.checked ? "block" : "none";
+        }
+    }
 }

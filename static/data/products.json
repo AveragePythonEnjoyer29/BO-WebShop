@@ -95,5 +95,33 @@
         "description": "Het betreft een nieuwe computer welke zorgvuldig is geassembleerd. De computer is tevens getest op een goede werking en wordt startklaar geleverd. Windows is reeds geïnstalleerd en geactiveerd met een digitale licentie. Na de eerste opstart zal Windows zich updaten naar de meest recente versie. ",
         "is_ad": true,
         "in_stock": true
+    },
+
+    {
+        "name": "BlueBuilt 14 inch Laptophoes breedte 31,5 cm - 32,5 cm Zwart",
+        "type": "accesoires",
+        "price": 31.99,
+        "img": [
+            "https://image.coolblue.nl/max/500x500/products/1881900",
+            "https://image.coolblue.nl/max/500x500/products/1881899",
+            "https://image.coolblue.nl/max/500x500/products/1883239"
+        ],
+        "description": "Bescherm jouw laptop tegen krassen en stoten met de BlueBuilt 14 inch Laptophoes breedte 31,5 cm - 32,5 cm Zwart. Met deze sleeve neem je een 14 inch laptop veilig en gemakkelijk met je mee in een tas. Daarnaast heb je in het accessoire vak extra ruimte voor kabels of je muis. Door de dubbele ritssluiting haal je jouw laptop makkelijker uit je rugzak. Hiervoor hoef je de sleeve niet eerst uit je tas te halen. Bovendien heb je 5 jaar garantie op deze laptophoes.",
+        "is_ad": false,
+        "in_stock": true
+    },
+
+    {
+        "name": "Seagate Expansion Portable 5 TB",
+        "type": "accesoires",
+        "price": 116,
+        "img": [
+            "https://image.coolblue.nl/max/500x500/products/1617135",
+            "https://image.coolblue.nl/max/500x500/products/1617132",
+            "https://image.coolblue.nl/max/500x500/products/1617130"
+        ],
+        "description": "Voeg extra opslagruimte toe aan je pc of laptop met de Seagate Expansion Portable 5 TB harde schijf. Dankzij het kleine formaat neem je deze externe schijf eenvoudig overal mee naartoe. Zo kun je altijd bij je persoonlijke bestanden. De schijf krijgt zijn stroom via de usb kabel, zodat je hem niet in het stopcontact hoeft te steken. Daardoor gebruik je de externe harde schijf ook onderweg met een laptop. Dankzij de automatische energiebesparing gebruikt de schijf geen stroom als je hem niet gebruikt. De harde schijf is plug and play: sluit hem aan op je Windows computer en hij werkt direct. Profiteer van langdurige gemoedsrust dankzij de inbegrepen beperkte garantie van 2 jaar en 2 jaar aan Seagate Rescue Data Recovery Services",
+        "is_ad": false,
+        "in_stock": true
     }
 ]
