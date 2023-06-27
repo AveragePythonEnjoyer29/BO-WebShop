@@ -77,7 +77,7 @@ header {
 }
 
 .slogan {
-    background-image: url("/static/media/wp6024780-devices-wallpapers.jpg");
+    background-image: url("/static/media/wp6024780-devices-wallpapers.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -330,7 +330,7 @@ header {
 }
 
 .footer {
-    margin-top: auto;
+    margin-top: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -6,7 +6,7 @@ function display_product_mini(element, data) {
 
     element.innerHTML = `
     <div class="center">
-        <img src="${data.img[0]}" alt="product afbeelding" class="product--img">
+        <img src="${data.img[0]}" alt="product afbeelding" class="product--img" loading="lazy">
         <p class="product--name">${data.name}</p>
         <div>
             <p class="product--price">€ ${data.price}</p>
@@ -28,7 +28,7 @@ function display_review(element, data) {
     }
 
     element.innerHTML = `
-    <img class="review--user-icon" id="review--user-icon" src="/static/media/user.webp" alt="user icon">
+    <img class="review--user-icon" id="review--user-icon" src="/static/media/user.webp" alt="user icon" loading="lazy">
     <h2 id="review--text">${data.text}</h2>
     <div class="review--stars">
         ${stars}

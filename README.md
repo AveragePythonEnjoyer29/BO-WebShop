@@ -3,6 +3,9 @@
 - Style: https://www.gamemania.nl/nl
 - Wireframe: https://miro.com/app/board/uXjVMRFp2ko=/
 
+# Note
+De javascript is echt spaghetti met verotte gehaktballen, ik heb je gewaarschuwt!
+
 # User-stories
 1. Als klant wil ik informatie over de webshop zodat ik kan bepalen of ik hier iets wil kopen
 2. Als klant wil ik recensies kunnen lezen, zodat ik een idee krijg van de kwaliteit en prestaties van de webshop
