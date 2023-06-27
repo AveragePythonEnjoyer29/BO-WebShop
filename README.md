@@ -13,11 +13,11 @@
 7. Als klant wil ik producten kunnen filteren op prijs zodat ik weet welke producten het goedkoopst / duurst zijn.
 8. Als klant wil ik mijn winkelwagen kunnen bekijken zodat ik mijn bestelling kan controleren.
 
-- Done: 1, 2, 4
-- Bezig: 3, 6
-- To-do: 5, 7, 8
+- Done: 1, 2, 4, 6, 7
+- Bezig: 3
+- To-do: 5, 8
 
 # Paginas
-- Done: Homepage
-- Bezig: Producten overzicht (#1), individueel product
-- To-do: Winkelwagen pagina, producten overzicht (#2)
+- Done: Homepage, producten overzicht (#1), producten overzicht (#2)
+- Bezig: Individueel product
+- To-do: Winkelwagen pagina
