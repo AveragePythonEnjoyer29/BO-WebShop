@@ -16,8 +16,8 @@ De javascript is echt spaghetti met verotte gehaktballen, ik heb je gewaarschuwt
 7. Als klant wil ik producten kunnen filteren op prijs zodat ik weet welke producten het goedkoopst / duurst zijn.
 8. Als klant wil ik mijn winkelwagen kunnen bekijken zodat ik mijn bestelling kan controleren.
 
-- Done: 1, 2, 4, 6, 7
-- Bezig: 3
+- Done: 1, 2, 3, 4, 6, 7
+- Bezig: 
 - To-do: 5, 8
 
 # Paginas

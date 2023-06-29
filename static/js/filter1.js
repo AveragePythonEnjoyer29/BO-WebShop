@@ -13,6 +13,19 @@ toggle_accesoires.checked = true;
 
 let toggle_full = false;
 
+function displayAlert(num) {
+    const alert_obj = document.getElementById(`alert--${num}`);
+
+    // display
+    alert_obj.style.display = "flex";
+
+    // hide after 2 seconds
+    setTimeout(
+	function() { alert_obj.style.display = "none"; },
+	2000
+    )
+}
+
 function display(num) {
     let display_mode = toggle_full ? "block" : "none";
 
@@ -54,11 +67,17 @@ fetch("/static/data/products.json")
             ${data.is_ad ? `<p class="product--advertisement">Advertisement</p>` : ""}
         </div>`;
 
+	console.log(`alert--${i}`);
+
         let div = document.createElement("div");
         div.setAttribute("class", "product--full");
         div.setAttribute("id", `product--full-${i}`);
         div.innerHTML = `
         <ul class="product--grid">
+
+            <div class="alert--popup" id="alert--${i}">
+	    	&#10003; Item added to cart
+            </div>
 
             <li class="product--backbutton">
                 <button onclick="display(${i})" class="product--goback"><</button>
@@ -74,7 +93,7 @@ fetch("/static/data/products.json")
             </li>
 
             <li class="product--buttons-cart">
-                <button class="button--add2cart">
+                <button class="button--add2cart", onclick="displayAlert(${i})">
                     Add to cart
                 </button>
             </li>
@@ -89,6 +108,21 @@ fetch("/static/data/products.json")
 
         main.append(div)
         products.append(li);
+
+	const alert = document.getElementById(`alert--${i}`)
+	alert.style.display = "none"; // hide it
+	alert.style.height = "17rem";
+	alert.style.width = "30rem";
+	alert.style.position = "fixed";
+	alert.style.top = "20%";
+	alert.style.justifyContent = "center";
+	alert.style.alignItems = "center";
+	alert.style.background = "#FFFFFF";
+	alert.style.boxshadow = "0 0 5rem 0 rgba(0, 0, 0, .3)";
+	alert.style.color = "green";
+	alert.style.fontSize = "130%";
+	alert.style.fontWeight = "400";
+	alert.style.borderRadius = ".5rem";
 
         const gallery_buttons = document.querySelectorAll(`#gallery${i}`);
         for (let iter = 0; iter < gallery_buttons.length; iter++) {
