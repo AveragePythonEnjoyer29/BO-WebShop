@@ -77,7 +77,8 @@ header {
 }
 
 .slogan {
-    background-image: url("/static/media/wp6024780-devices-wallpapers.webp");
+    /* fix voor filezilla: gebruik /webhop/static/ inplaats van static/ ***/
+    background-image: url("static/media/wp6024780-devices-wallpapers.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

@@ -21,8 +21,8 @@ function displayAlert(num) {
 
     // hide after 2 seconds
     setTimeout(
-	function() { alert_obj.style.display = "none"; },
-	2000
+	    function() { alert_obj.style.display = "none"; },
+	    2000
     )
 }
 
@@ -46,7 +46,7 @@ function display(num) {
     toggle_full = !toggle_full;
 }
 
-fetch("/static/data/products.json")
+fetch("static/data/products.json")
 .then(function (response) { return response.json(); })
 .then(function(json) {
     for (let i = 0; i < json.length; i++) {

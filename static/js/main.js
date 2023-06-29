@@ -28,7 +28,7 @@ function display_review(element, data) {
     }
 
     element.innerHTML = `
-    <img class="review--user-icon" id="review--user-icon" src="/static/media/user.webp" alt="user icon" loading="lazy">
+    <img class="review--user-icon" id="review--user-icon" src="static/media/user.webp" alt="user icon" loading="lazy">
     <h2 id="review--text">${data.text}</h2>
     <div class="review--stars">
         ${stars}
@@ -38,7 +38,7 @@ function display_review(element, data) {
 }
 
 // Fetch products from file
-fetch("/static/data/products.json")
+fetch("static/data/products.json")
 .then(function (response) { return response.json(); })
 .then(function(json) {
     for (let i = 0; i < json.length; i++) {
@@ -52,7 +52,7 @@ fetch("/static/data/products.json")
 });
 
 // Fetch reviews from file
-fetch("/static/data/reviews.json")
+fetch("static/data/reviews.json")
 .then(function (response) { return response.json(); })
 .then(function(json) {
     for (let i = 0; i < json.length; i++) {
